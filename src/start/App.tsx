@@ -44,7 +44,7 @@ const App = () => {
         Analizar
       </button>
       <div className="lexer-content">
-        <div>
+        <div className="tokens">
           <h2>Tokens</h2>
           <ul>
             {tokens.map((token, index) => (
@@ -54,7 +54,7 @@ const App = () => {
             ))}
           </ul>
         </div>
-        <div>
+        <div className="errors">
           <h2>Errores</h2>
           <ul>
             {error.map((error, index) => (
